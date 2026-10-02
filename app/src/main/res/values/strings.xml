@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BackgroundAudio</string>
+    <string name="action_start">START AUDIO</string>
+    <string name="action_pause">PAUSE</string>
+    <string name="action_stop">STOP</string>
+    <string name="action_choose">Choose my own audio file…</string>
+    <string name="action_third_party">Third-party apps: what is possible?</string>
+    <string name="third_party_title">Third-party apps</string>
+    <string name="status_stopped">● Audio service stopped</string>
+    <string name="status_playing">● PLAYING</string>
+    <string name="status_paused">● PAUSED</string>
+    <string name="status_buffering">● LOADING…</string>
+    <string name="status_connecting">● Connecting to audio service…</string>
+    <string name="status_connect_failed">● Could not connect to audio service</string>
+    <string name="hint_stopped">Press START AUDIO, then turn the screen off.</string>
+    <string name="hint_playing">Screen can be turned OFF.</string>
+    <string name="hint_paused">Paused. Press START AUDIO to resume.</string>
+    <string name="label_background">Background playback:\nON</string>
+    <string name="label_screen_off">Screen-off playback:\nON</string>
+    <string name="notification_channel_name">Audio playback</string>
+    <string name="notification_denied">Notifications are off: playback still works, but you will not see the notification controls.</string>
+    <string name="file_selected">Audio file selected</string>
+    <string name="track_tone">Background tone</string>
+    <string name="track_selected">Selected audio file</string>
+</resources>

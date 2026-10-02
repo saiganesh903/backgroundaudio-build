@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Needed to run a foreground service at all (all versions that have FGS). -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!-- Android 14+: foreground services must declare a type + the matching permission. -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <!-- Android 13+: runtime permission to show the media notification. -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Used only by ExoPlayer (WAKE_MODE_LOCAL), held only while playing local audio. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
